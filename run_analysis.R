@@ -62,4 +62,4 @@ names(second_tidy_df)[2] <- "code"
 names(second_tidy_df)[3] <- "actvity"
 
 write.table(second_tidy_df, "Data.txt", row.name=FALSE)
-write.csv(second_tidy_df, "Data.csv")
+write.csv(second_tidy_df, "Data.csv") 
